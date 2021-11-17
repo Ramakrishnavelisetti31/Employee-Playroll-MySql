@@ -32,6 +32,9 @@ ________________________________________________________________
 
 create table payroll_service (id int not null auto_increment, name varchar(200) not null, salary double not null, start date not null, primary key (id));
 
+mysql> rename table payroll_service to employee_service;
+Query OK, 0 rows affected (0.04 sec)
+
 mysql> desc employee_service;
 +--------+--------------+------+-----+---------+----------------+
 | Field  | Type         | Null | Key | Default | Extra          |
